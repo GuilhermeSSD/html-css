@@ -1,0 +1,11 @@
+@charset "UTF-8";
+body{
+    background-image: url('img/espaco.jpg');
+    }
+
+    img{
+        display: flex;
+        margin: auto;
+        margin-top: 200px;
+        
+    }

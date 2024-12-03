@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif
+   
+}
+body{
+    background-image: linear-gradient(to right,#E1EBF0,#477A91) 
+}
+
+main{
+    background-color: white; /*cor de fundo*/
+    border-radius: 10px; /*cria cantos levemente arredondados.*/
+
+    box-shadow: 5px 6px 15px #17283091;/*Adiciona sombra*/
+    /*5px: deslocamento horizontal.
+      6px: deslocamento vertical.
+      15px: desfoque.
+    #17283091; : cor da sombra.*/ 
+
+    width: 600px; /*define a largura*/
+    padding: 10px;/*define o espaçamento interno*/
+    margin: auto; /*centralizar um elemento horizontalmente*/
+}
+
+h1{
+    color: #D6AA58;
+    text-align: center;
+    text-shadow: 1px 1px 2px #725a2eaf;
+}
+
+h2{
+    color: #65bfd1 ;
+}
+
+p {
+    text-align: justify;
+}
