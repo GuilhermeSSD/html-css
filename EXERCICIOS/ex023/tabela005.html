@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 8px;
+            box-shadow: 1;
+        }
+
+        col.cnome{
+            background-color: rgb(177, 167, 151);
+        }
+
+        col.csexo{
+            background-color: rgb(59, 65, 65);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Exercicios de Tabelass</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo" span="2">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+
+        <caption>Cadastro</caption>   
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>João Pedro</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Engenheiro</td>
+        </tr>
+        <tr>
+            <td>Mariana Souza</td>
+            <td>F</td>
+            <td>28</td>
+            <td>Designer</td>
+        </tr>
+        <tr>
+            <td>Ricardo Alves</td>
+            <td>M</td>
+            <td>35</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Fernanda Lima</td>
+            <td>F</td>
+            <td>27</td>
+            <td>Médica</td>
+        </tr>
+        <tr>
+            <td>Lucas Mendes</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Programador</td>
+        </tr>
+    </tbody>
+
+</body>
+</html>
